@@ -1,0 +1,360 @@
+{
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "custom",
+  "editor.tabCompletion": "on",
+  "workbench.preferredLightColorTheme": "Quiet Light",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorCustomizations": {
+    "[Material Theme High Contrast]": {
+      "activityBarBadge.background": "#2979FF",
+      "activityBar.activeBorder": "#2979FF",
+      "list.activeSelectionForeground": "#2979FF",
+      "list.inactiveSelectionForeground": "#2979FF",
+      "list.highlightForeground": "#2979FF",
+      "scrollbarSlider.activeBackground": "#2979FF50",
+      "editorSuggestWidget.highlightForeground": "#2979FF",
+      "textLink.foreground": "#2979FF",
+      "progressBar.background": "#2979FF",
+      "pickerGroup.foreground": "#2979FF",
+      "tab.activeBorder": "#2979FF",
+      "notificationLink.foreground": "#2979FF",
+      "editorWidget.resizeBorder": "#2979FF",
+      "editorWidget.border": "#2979FF",
+      "settings.modifiedItemIndicator": "#2979FF",
+      "settings.headerForeground": "#2979FF",
+      "panelTitle.activeBorder": "#2979FF",
+      "breadcrumb.activeSelectionForeground": "#2979FF",
+      "menu.selectionForeground": "#2979FF",
+      "menubar.selectionForeground": "#2979FF",
+      "editor.findMatchBorder": "#2979FF",
+      "selection.background": "#2979FF40",
+      "statusBarItem.remoteBackground": "#2979FF"
+    },
+    "tab.activeBorder": "#ffc600",
+    "editorCursor.foreground": "#ffc600",
+    "activityBarBadge.background": "#ffc600",
+    "inputValidation.errorBorder": "#ffc600",
+    "panel.border": "#ffc600",
+    "panelTitle.activeBorder": "#ffc600",
+    "panelTitle.activeForeground": "#ffc600",
+    "peekView.border": "#ffc600",
+    "peekViewTitleLabel.foreground": "#ffc600",
+    "statusBar.border": "#ffc600"
+  },
+  "materialTheme.accent": "Blue",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 100, 120],
+  "editor.acceptSuggestionOnEnter": "off",
+  "svgPreview.style": {
+    "html": {
+      "background-position": "0 0, 13px 13px",
+      "background-size": "26px 26px",
+      "background-image": "linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414), linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414)"
+    }
+  },
+  "editor.definitionLinkOpensInPeek": true,
+  "texlab.server.autoDownload": true,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "cSpell.language": "en,pt-PT,pt,pt-PT-beforeOA",
+  "cSpell.userWords": [
+    "ARSLVT",
+    "factores",
+    "monoparentais",
+    "reconstruídas",
+    "SINAVE",
+    "typer"
+  ],
+  "cSpell.ignoreWords": ["CAOP"],
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "workbench.iconTheme": "catppuccin-mocha",
+
+  "cSpell.customDictionaries": {
+    "pt-PT-beforeOA": {
+      "name": "pt-PT-beforeOA",
+      "path": "~/.cspell/pt-PT-preAO.txt",
+      "description": "",
+      "addWords": true
+    },
+    "custom": true,
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+
+  "cSpell.dictionaries": ["pt-PT-beforeOA", "en-US"],
+
+  // Global VS Code Settings appear here
+  "[markdown]": {
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 76,
+    "zenMode.centerLayout": true,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "markdown-preview-enhanced.codeBlockTheme": "default.css",
+  "workbench.preferredHighContrastColorTheme": "Material Theme High Contrast",
+  "editor.renderWhitespace": "none",
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "livePreview.notifyOnOpenLooseFile": false,
+  "editor.accessibilitySupport": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "C_Cpp.default.compilerArgs": [
+    "-Wall -Wextra"
+  ],
+  "terminal.integrated.detectLocale": "on",
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "c": "cd $dir && clang -fcolor-diagnostics -fansi-escape-codes -Wall -Wextra -g $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python3 -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName"
+  },
+  "C_Cpp.debugShortcut": false,
+  "terminal.external.osxExec": "warp.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  "c-cpp-flylint.clang.language": "c",
+  "c-cpp-flylint.cppcheck.language": "c",
+  "c-cpp-flylint.clang.standard": ["c18"],
+  "git.openRepositoryInParentFolders": "always",
+  "glassit.alpha": 190,
+  "transparent-win.transparency": 0.2,
+  "glassit.force_sway": true,
+  "vim.smartRelativeLine": true,
+  "rust-analyzer.completion.autoself.enable": false,
+  "rust-analyzer.hover.actions.debug.enable": false,
+
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  "nvim-ui.nvimColorCustomizationKeys": [
+    "tab.activeBorder",
+    "editorCursor.foreground",
+    "activityBarBadge.background",
+    "inputValidation.errorBorder",
+    "panel.border",
+    "panelTitle.activeBorder",
+    "panelTitle.activeForeground",
+    "peekView.border",
+    "peekViewTitleLabel.foreground",
+    "tab.activeBorder",
+    "statusBar.border"
+  ],
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "settings.cycle": [
+    {
+      "id": "relativeLineNumbers",
+      "overrideWorkspaceSettings": true,
+      "values": [
+        {
+          "editor.lineNumbers": "on"
+        },
+        {
+          "editor.lineNumbers": "relative"
+        }
+      ]
+    }
+  ],
+  "git.ignoreRebaseWarning": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 11,
+  "[search-result]": {
+    "editor.lineNumbers": "relative"
+  },
+  "editor.lineNumbers": "relative",
+  "ruff.codeAction.disableRuleComment": {
+    "enable": false
+  },
+  "ruff.args": ["--ignore=E501", "--ignore=E401", "--ignore=E701"],
+  "discord.removeRemoteRepository": true,
+  "discord.removeDetails": true,
+  "discord.removeLowerDetails": true,
+  "cSpell.allowCompoundWords": true,
+  "python.languageServer": "Pylance",
+  "editor.guides.bracketPairs": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "redhat.telemetry.enabled": false,
+  "c-cpp-flylint.flexelint.enable": false,
+  "c-cpp-flylint.flawfinder.enable": false,
+  "c-cpp-flylint.flawfinder.severityLevels": {
+    "0": "Information",
+    "1": "Warning",
+    "2": "Warning",
+    "3": "Warning",
+    "4": "Warning",
+    "5": "Error"
+  },
+  "workbench.settings.applyToAllProfiles": ["editor.tabSize"],
+  "editor.detectIndentation": false,
+  "leetcode.workspaceFolder": "/Users/afonso/git/leetcode-solutions",
+  "leetcode.editor.shortcuts": ["description", "test", "submit"],
+  "leetcode.hint.commentDescription": false,
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "insertDateString.format": "YYYY-MM-DDThh:mm:ss",
+  "explorer.confirmPasteNative": false,
+  "cmake.configureOnOpen": true,
+  "editor.formatOnSave": false,
+  "window.menuBarVisibility": "compact",
+  "window.customTitleBarVisibility": "auto",
+  "ocaml.sandbox": {
+    "kind": "opam",
+    "switch": "lap2024"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "oracledevtools.connectionConfiguration.configFilesFolder": "/home/afonso/Oracle/network/admin",
+  "oracledevtools.connectionConfiguration.walletFileFolder": "/home/afonso/Oracle/network/admin",
+  "[oraclesql]": {
+    "editor.suggest.showSnippets": true,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  "oracledevtools.bookmarkFileFolder": "/home/afonso/Oracle/oracle.oracledevtools",
+  "oracledevtools.download.otherFolder": "/home/afonso/downloads",
+  "sqldeveloper.telemetry.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false
+}

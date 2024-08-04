@@ -1,0 +1,159 @@
+version = "1.1.13"
+
+[class]
+mpv = ""
+nemo = ""
+zoom = ""
+sun-awt-x11-xframepeer = ""
+wayvnc = "󰀄"
+Code = "<span color='#0078d7'>󰨞</span>"
+code-url-handler = "<span color='#0078d7'>󰨞</span>"
+steam = ""
+plexamp = ""
+dmenu-browser = ""
+taskwarrior-tui = ""
+org-qutebrowser-qutebrowser = ""
+krita = ""
+paperwork = ""
+jetbrains-studio = ""
+rapid-photo-downloader = ""
+"dmenu-pass generator" = ""
+"whatsapp-nativefier-*" = "<span color='#25D366'></span>"
+obsidian = ""
+kicad = ""
+libreoffice-calc = ""
+udiskie = ""
+virt-manager = ""
+"Gimp-2.10" = ""
+dmenu-clipboard = ""
+org-telegram-desktop = ""
+personal = ""
+bleachbit = ""
+neomutt = ""
+telegramdesktop = ""
+vim = "<span color='#098E36'></span>"
+nvim = "<span color = '#539740'></span>"
+neovide = "<span color='#539740'></span>"
+# neovide = "<span color='#3988CC'></span>"
+vimiv = ""
+wire = "󰁀"
+DEFAULT = ""
+chrome-faolnafnngnfdaknnbpnkhgohbobgegn-default = ""
+qutepreview = ""
+calibre-gui = ""
+snappergui = ""
+fontforge = ""
+wireshark-gtk = ""
+scli = ""
+jetbrains-idea = ""
+"(?i)waydroid.*" = "droid"
+burp-startburp = ""
+cssh = ""
+libreoffice-writer = ""
+edge = "󰇩"
+songrec = ""
+Signal = ""
+swappy = ""
+gsimplecalc = ""
+dmenu-emoji = ""
+Spotify = "<span color='#1ED760'></span>"
+kak = ""
+"(?i)alacritty" = ""
+org-pwmt-zathura = ""
+dmenu-pass = ""
+shopping = ""
+whatsapp-desktop = "<span color='#25D366'></span>"
+xplr = ""
+libreoffice-startcenter = ""
+"(?i)kitty" = ""
+streamlink-twitch-gui = ""
+work = ""
+darktable = ""
+"(?i)firefox" = "<span color='#E66000'></span>"
+remote-viewer = ""
+sandboxed-tor-browser = ""
+WebCord = "<span color='#5865F2'></span>"
+duolingo = ""
+molotov = ""
+nm-connection-editor = ""
+org-ksnip-ksnip = ""
+slack = ""
+wlfreerdp = "󰀄"
+thunar = "󰉋"
+chromium = ""
+qalculate-gtk = ""
+vlc = ""
+vncviewer = ""
+libreoffice-impress = ""
+gcr-prompter = ""
+element = ""
+pavucontrol = ""
+okular = ""
+discord = "<span color='#5865F2'></span>"
+".*transmission.*" = ""
+
+[class_active]
+"(?i)ExampleOneTerm" = "<span foreground='red'>{icon}</span>"
+DEFAULT = "**"
+
+[initial_class]
+
+[initial_class_active]
+
+[workspaces_name]
+9 = "nine"
+8 = "eight"
+10 = "ten"
+2 = "two"
+7 = "seven"
+1 = "one"
+5 = "five"
+0 = "zero"
+4 = "four"
+6 = "six"
+3 = "three"
+
+[title_in_class."(?i)kitty"]
+"(?i)neomutt" = "neomutt"
+
+[title_in_class."(?i)(firefox|edge)"]
+"(?i)twitch" = "<span color='#6441A4'></span>"
+"(?i)Vídeo em janela flutuante" = "󰹗"
+"(?i)Chess.com" = "<span color='#7ab150'></span>"
+"(?i)YouTube" = "<span color='red'>󰗃</span>"
+
+[title_in_class."(?i)FFPWA*"]
+"(?i)WhatsApp" = "<span color='#25D366'></span>"
+
+[title_in_class_active]
+
+[title_in_initial_class]
+
+[title_in_initial_class_active]
+
+[initial_title_in_class]
+
+[initial_title_in_class_active]
+
+[initial_title_in_initial_class]
+
+[initial_title_in_initial_class_active]
+
+[exclude]
+"(?i)fcitx" = ".*"
+"(?i)TestApp" = ""
+aProgram = "^$"
+"[Ss]team" = "^$"
+
+[format]
+dedup = true
+dedup_inactive_fullscreen = true
+delim = " "
+workspace = "{id}:{delim}{clients}"
+workspace_empty = "{id}"
+client = "{icon}"
+client_fullscreen = "[{icon}]"
+client_active = "*{icon}*"
+client_dup = "{icon}{counter_sup}"
+client_dup_active = "*{icon}*{delim}{icon}{counter_unfocused_sup}"
+client_dup_fullscreen = "[{icon}]{delim}{icon}{counter_unfocused_sup}"

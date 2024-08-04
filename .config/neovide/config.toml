@@ -1,0 +1,4 @@
+[font]
+    normal = { family = "FiraCode Nerd Font" }
+    italics = { family = "Courier Prime Code", style = "Italic" }
+    size = 10
