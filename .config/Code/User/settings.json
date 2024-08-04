@@ -334,7 +334,6 @@
   "explorer.confirmPasteNative": false,
   "cmake.configureOnOpen": true,
   "editor.formatOnSave": false,
-  "window.menuBarVisibility": "compact",
   "window.customTitleBarVisibility": "auto",
   "ocaml.sandbox": {
     "kind": "opam",
