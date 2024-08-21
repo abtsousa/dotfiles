@@ -13,8 +13,8 @@ return {
       vim.notify("Please update the remote plugins by running ':UpdateRemotePlugins', then restart Neovim.")
     end,
     config = {
-      require("which-key").add(  {
-      { "<leader>cc", group = "Copilot Chat", mode = { "n", "v" } },
+      require("which-key").add( {
+        { "<leader>cc", group = "Copilot Chat", mode = { "n", "v" } },
       })
     },
     event = "VeryLazy",

@@ -1,4 +1,3 @@
--- local is_neovide = vim.g.neovide
 return {
   {
     "catppuccin/nvim",
@@ -46,13 +45,8 @@ return {
   {
     "nvim-notify",
     opts = {
-      -- background_colour = "#000000",
+      background_colour = "#000000",
     },
   },
   { "hiphish/rainbow-delimiters.nvim" },
-  {
-    "Mofiqul/adwaita.nvim",
-    lazy = false,
-    priority = 1000,
-  },
 }
